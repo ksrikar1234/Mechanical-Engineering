@@ -1,0 +1,194 @@
+NOTE : SPRINGS and CAPACITORS have Equivalent Behaviour
+
+
+Page 1
+
+Topics 
+1.Vibrations
+  Free,Forced
+2. Balancing 
+    reciprocating 
+    Rotating
+  
+Page 2
+
+Vibrations
+Wn = 2*pi*fn
+
+page 3
+
+Vibrational Analysis
+
+1. Identification of a system , modelling the system
+2. Deriving equations of motions
+3. Finding response of a system.
+4. Analysis of response and modifiction
+
+Page 4 , 5  
+ Crap!!!!
+ 
+Page 6
+ 
+Properties of system elements
+1. inertial force F = m*a = m * d^2(x)/d(t)^2
+2. Damper Forces = c*d(x)/dt 
+3. Spring Force = K*x
+
+
+Page 10 ,11
+
+Deriving Equations of Motions
+
+1. Equilibrium Method  
+  { 1. Give delta(x) displacement ; 
+    2. Draw Free body diagram ;
+	3. Sovlve the equations of motions }
+
+2. Energy Method {1. Solve delta(Total Energy)/dt = 0}
+
+3. Rayleigh method
+4. Lagrangian Method }_ Used for multi DOF or Continous system
+5. Galerkin Method   }  
+
+Page 12 , 13 
+
+Spring Mass system 
+
+( m(block) + (m(spring)/3) )*d^2(x)/d(t)^2 + k*x = 0;
+
+x = Asin(Wn*t + pHI)
+
+Wn - sqrt( k / [ m(block)+m(spring) ] )
+
+Page 14 15
+
+1 DOF forced Damped longitudinal
+
+m*d^2(x)/d(t)^2 + c*dx/dt + k*x = F(External)
+
+2. Forced Undamped Oscillation
+
+F(External) = m*d^2(x)/d(t)^2  + k*x
+
+
+
+Page 18
+
+Beam Deflection Oscillations
+
+Wn = sqrt(g/delta_deflection)
+
+Important point : 
+
+Remeber the deflections of different types of beams
+
+Page 20
+
+Energy Method 
+
+E = K.E + P.E + intergral(c*x^2 , t)
+
+Solve DELTA(E) = 0;
+
+Page 22 - 26
+
+All are Spring connected systems 
+
+NOTE : SPRINGS and CAPACITORS have Equivalent Behaviour
+
+DIVISION OF SPRINGS LEADS TO LOSS OF ENERGY STORING CAPACITY
+THUS REDUCING THE VALUE OF 'K'
+
+HELICAL SPRINGS :
+
+PAGE 28
+
+Lever Based problems :
+
+Inertial*(angular acceleration) + c*d(theta)/dt + k(torision)*(angular displacement)
+
+PAGE 30
+
+SIMPLE and COMPOUND PENDULUMS
+ 
+SIMPLE                    : Wn = sqrt(g/l)
+COMPOUND                  : Wn = sqrt(1.5*(g/l))
+MASS LESS RIGID SUPPORT   : Wn = 
+INVERTED PENDULUM         : Wn = sqrt((k(torision) - (m*g*l)) / L^2)
+
+PAGE 32 
+
+HORIONTAL LEVER
+
+VERTICAL  LEVER 
+
+PAGE 33 
+
+CIRCULAR DISC BASED PROBLEMS
+
+1. Use Energy Equation and solve D(E(t)) = 0
+2. Use Equilibrium Method and solve force equations
+
+NEGLECT TORISION Vibrations
+
+PAGE 37 38
+
+RESPONSE ANALYSIS
+
+1. Assume dispacement relavent to given problem
+2.Find velocity and acceleration
+3.Substitute and solve
+4. Use initial conditions
+
+Impulse Momentum Principle:
+
+F*t = m(v2 -v1)
+
+v1 = 0
+
+v2 = A*w        -------(1)
+
+w  = sqrt(k/m)  -------(2)
+
+
+UPTO PAGE 42
+
+Response for Free undamped oscillations
+
+solution of 
+
+d^2(x)/d(t)^2 + w^2(x) = m..x + kx
+
+x = Max_Amp(X)*sin(w*t + phi)
+
+x  = Asin(wt) + Bcos(wt) 
+
+Substitute the solution into the original equations for obtaining 
+x , v , a , w   etc expressions
+
+PAGE 43
+
+Response for Damped systems
+
+
+x = A*e^(alpha*time)
+if(alpha > 0) increases else decreases
+
+IMPORTANT :
+(alpha_1*alpha_2) = [-c [+-] sqrt(c^2 - 4*m*k)] / 2*m
+
+Critical damping quotient = Cc = 2*sqrt(m*k) 
+
+Damping factor = Actual / Critical;
+
+Types of Damped systems 
+1. Overdamped   = Actual is very high
+2. Critically   = Actual == Critical
+3. Under Damped = Actual is low compared to Critical
+
+logarithmic decrement 
+delta = (2*3.14*Damping factor)/sqrt(1-(damping factor)^2) 
+
+no_of cycles = (1/delta)*ln(x0 / x n)
+
+
